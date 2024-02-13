@@ -1,0 +1,60 @@
+/*SHOP PART*/
+    /*ID'S*/
+    .shop-section {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 100px;
+    }
+
+    .container-top{
+        background-color: rgb(146, 232, 203);
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        height: 250px;
+    }
+
+    .top-text-contained{
+        
+    }
+
+    .picture-top-contained{
+        width: 150px;
+    }
+/*SHOP PART*/
+
+/*MIDDLE DIVIDER*/
+#contain-info{
+    width: 100%;
+    background-color: rgb(131, 169, 156);
+    min-height: 190px;
+    text-align: center;
+    padding: 10px 70px;
+}
+
+#milk-heading {
+    font-size: 50px;
+    color: rgb(234, 224, 224);
+    font-family: 'Poppins', sans-serif;
+}
+#info-text-divider {
+    font-size: 30px;
+    color: rgb(234, 224, 224);
+}
+/*MIDDLE DIVIDER*/
+
+#test1 {
+color: aliceblue;
+font-size: 50px;
+list-style-type:lower-latin;
+list-style-position: inside;
+}
+#test2 {
+color: aliceblue;
+font-size: 50px;
+list-style-position: outside;
+
+}

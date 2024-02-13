@@ -6,23 +6,41 @@
 
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
+    background-image: url("https://i.imgflip.com/79xfh8.jpg");
+
 }
 nav {
     height: 100px;
     position: sticky;
     top: 0;
-    background-color: rgb(131, 169, 156);
+    background-color: rgb(132, 161, 156);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
+
+header {
+    
+}
+
 a {
     text-decoration: none;
 }
+footer {
+    background-color: rgb(44, 41, 41);
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    padding: 50px;
+}
 
 /*CLASSES*/
+.footer-text {
+    color: rgb(224, 221, 221);
+    font-size: 50px;
+}
 .navBtn {
    box-shadow: 6px 6px 1px rgb(4, 61, 4);
     border: 4px rgb(68, 85, 51) solid;
