@@ -1,0 +1,19 @@
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 100px;
+}
+.container-top{
+    background-color: rgb(91, 122, 111);
+    color:rgb(210, 206, 206);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 250px;
+}
+.picture-top-contained{
+    width: 150px;
+}
